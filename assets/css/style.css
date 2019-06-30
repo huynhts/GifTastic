@@ -1,0 +1,14 @@
+#gifButton {
+    margin: 5px;
+}
+
+.gif-Div {
+    margin: 15px 15px;
+    float: left;
+    overflow: hidden;
+    width: auto;
+}
+
+/* body {
+    background-color: #000;
+} */
