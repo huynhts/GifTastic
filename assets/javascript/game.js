@@ -56,8 +56,10 @@ $(document).on('click', '#gifButton', function(){
 
             var divGif = $('<div>');
             divGif.attr('class', 'gif-Div');
-            var pGif = $("<p>").text("Rating: " + rating);
 
+            var pGif = $("<p>").text("Rating: " + rating);
+            pGif.attr('class', 'ratingText');
+            
             var gifImage = $("<img>");
             gifImage.attr("src", results[i].images.fixed_height_still.url);
             gifImage.attr("class", 'gif-Image');

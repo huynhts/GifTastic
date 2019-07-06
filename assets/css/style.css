@@ -9,6 +9,17 @@
     width: auto;
 }
 
-/* body {
+body {
     background-color: #000;
-} */
+}
+
+#gifButton,
+.search-button,
+.form-control {
+    color: #fff;
+    background-color: #000;
+}
+
+.ratingText {
+    color: #fff;
+}
